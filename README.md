@@ -1,6 +1,6 @@
 # Lineman Bootstrap Boilerplate
 
-This package is kind of a starting place for me when I build interactive prototypes using Twitter Bootstrap, Backbone, Handlebars and Lineman. It comes with sample routes, views, models, and a server that stubs out a simple endpoint to return a list of Animals.
+This package is kind of a starting place for me when I build interactive prototypes and single page apps using Twitter Bootstrap, Backbone, Handlebars, Testem and Lineman. It comes with sample routes, views, and models (so you can see how the plumbing works), and a server that stubs out a simple endpoint to return a list of Animals (so you can see how server side integration with Backbone works).
 
 # Customizations
 
