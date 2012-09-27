@@ -1,0 +1,9 @@
+{
+  "framework" : "jasmine",
+  "launch_in_dev" : ["PhantomJS", "Chrome"],
+  "src_files" : [
+    "generated/js/app.js",
+    "spec/helpers/*.js",
+    "generated/js/spec.js"
+  ]
+}

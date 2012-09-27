@@ -1,0 +1,39 @@
+@import "mixins.less";
+
+.brand.author { float: right; }
+
+/* Responsive
+-------------------------------------------------- */
+
+@media only screen and (min-width: 974px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 768px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
+  }
+}

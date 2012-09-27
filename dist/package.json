@@ -1,0 +1,16 @@
+{
+  "name": "my-lineman-app",
+  "title": "An HTML/JS/CSS app",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "John Doe",
+    "company": "ACME, Inc."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.3.10",
+    "grunt-contrib": "~0.1.1",
+    "lineman": "~0.0.3"
+  }
+}
