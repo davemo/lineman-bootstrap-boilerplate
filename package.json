@@ -11,12 +11,12 @@
     "express" : "3.0.0rc4",
     "request" : "~2.11.4",
     "handlebars" : "1.0.7",
-    "testem" : "0.2.1"
+    "testem" : "0.2.4"
   },
   "devDependencies": {
     "grunt": "~0.3.10",
     "grunt-contrib": "~0.1.1",
-    "lineman": "~0.1.1",
-    "testacular": "~0.0.16"
+    "lineman": "~0.1.3",
+    "testem" : "~0.2.4"
   }
 }
