@@ -1,6 +1,6 @@
-var express            = require('express'), 
-    request            = require('request'),
-    app                = express.createServer();
+var express = require('express'),
+    request = require('request'),
+    app     = express();
 
 app.configure(function() {
   app.use(express.static(process.cwd() + "/generated"));
@@ -8,7 +8,7 @@ app.configure(function() {
   app.use(express.errorHandler());
 });
 
-app.get('/animals', function(req, res) { 
+app.get('/animals', function(req, res) {
   res.json([
     { name: 'Dog' },
     { name: 'Cat' },
