@@ -7,4 +7,14 @@
 
 module.exports = require('lineman').config.extend('application', {
   //Override application configuration here
+  homepage: {
+    template: 'app/templates/homepage.hb'
+  },
+  handlebars: {
+    compile: {
+      options: {
+        wrapped: true
+      }
+    }
+  }
 });

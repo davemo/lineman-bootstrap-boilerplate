@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title><%= pkg.name %></title>
-    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+    <title>{{ pkg.name }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ css }}" media="all" />
   </head>
   <body>
   <div class="navbar navbar-fixed-top">
@@ -38,6 +38,6 @@
     <div id="alerts"></div>
     <div id="page"></div>
   </div>
-  <script type="text/javascript" src="<%= js %>"></script>
+  <script type="text/javascript" src="{{ js }}"></script>
   </body>
 </html>
