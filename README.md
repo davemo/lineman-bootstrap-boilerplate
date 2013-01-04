@@ -1,6 +1,6 @@
 # Lineman Bootstrap Boilerplate
 
-This package is kind of a starting place for me when I build interactive prototypes and single page apps using Twitter Bootstrap, Backbone, Handlebars, Testem and Lineman. It comes with sample routes, views, and models (so you can see how the plumbing works), and a server that stubs out a simple endpoint to return a list of Animals (so you can see how server side integration with Backbone works).
+This package is kind of a starting place for me when I build interactive prototypes and single page apps using Twitter Bootstrap, Backbone, Handlebars, Testem and Lineman. It comes with sample routes, views, and models (so you can see how the plumbing works), and an express server that stubs out a simple endpoint to return a list of Animals (so you can see how server side integration with Backbone works).
 
 # Customizations
 
@@ -23,6 +23,10 @@ I've overridden the lineman defaults to provide a better starting place for how 
 
 1. npm install (if you haven't already)
 2. lineman spec (runs in phantom if you have it, and chrome)
+
+# Upgrading
+
+If you are upgrading the installation of lineman from an older version you will need to `rm -rf node_modules` in the directory you cloned lineman-bootstrap-boilerplate to and then reinstall the node dependencies with `npm install`
 
 # Notes
 
