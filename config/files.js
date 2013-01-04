@@ -15,9 +15,9 @@ module.exports = require('lineman').config.extend('files', {
   //Override file patterns here
   js: {
     vendor: [
-      "vendor/js/jquery.min.js",
+      "vendor/js/jquery.js",
       "vendor/js/underscore.js",
-      "vendor/js/backbone.min.js",
+      "vendor/js/backbone.js",
       "vendor/js/bootstrap.js",
       "vendor/js/**/*.js"
     ],
@@ -30,7 +30,9 @@ module.exports = require('lineman').config.extend('files', {
       "app/js/routers.js",
       "app/js/start.js",
       "app/js/**/*.js"
-    ]
+    ],
+    spec: "spec/js/**/*.js",
+    specHelpers: "spec/js/helpers/**/*.js"
   },
   css: {
     vendor: [
