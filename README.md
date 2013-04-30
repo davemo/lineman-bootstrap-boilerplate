@@ -4,14 +4,14 @@ This package is kind of a starting place for me when I build interactive prototy
 
 # Customizations
 
-I've overridden the lineman defaults to provide a better starting place for how I  develop, these include:
+I've overridden a few of the lineman defaults to provide a better starting place for how I build backbone apps, these include:
 
 1. Custom [Express.JS](http://expressjs.com/) server with stubbed endpoints
 2. [Testem](https://github.com/airportyh/testem) for running specs separate from the lineman process: `lineman spec`
 3. [Twitter Bootstrap](https://github.com/twitter/bootstrap) with a basic single page app layout and navbar
 4. Some default styling and Bootstrap mixins.less, useful for many projects
 5. [Backbone](http://documentcloud.github.com/backbone/) router, models, collections and views in a way I usually organize things
-6. Removal of default coffeescript files that lineman generates; you can still write coffeescript with lineman if you so desire, it's just not where I start :)
+6. Removal of default coffeescript files that lineman generates; you can still write coffeescript with lineman if you so desire.
 
 # Running the App
 
