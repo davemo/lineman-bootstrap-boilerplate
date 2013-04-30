@@ -29,7 +29,7 @@ I've overridden the lineman defaults to provide a better starting place for how 
 If you are upgrading the installation of lineman from an older version you will need to `rm -rf node_modules` in the directory you cloned lineman-bootstrap-boilerplate to and then reinstall the node dependencies with `npm install`
 
 # Notes
-
+t
 This project relies on [Lineman](https://github.com/testdouble/lineman).
 
 # License

@@ -8,12 +8,7 @@
     "company": "ACME, Inc."
   },
   "dependencies": {
-    "express" : "3.0.0rc5"
-  },
-  "devDependencies": {
-    "grunt": "~0.3.10",
-    "grunt-contrib": "~0.2.0",
-    "lineman": "~0.2.4",
-    "testem" : "~0.2.13"
+    "lineman" : "~0.4.10",
+    "handlebars" : "~1.0.10"
   }
 }
