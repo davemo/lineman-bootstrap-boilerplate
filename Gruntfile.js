@@ -2,5 +2,5 @@
 module.exports = function(grunt) {
 
   // STOCK LINEMAN
-  require('lineman').config.grunt.run(grunt);
+  require(process.env['LINEMAN_MAIN']).config.grunt.run(grunt);
 };

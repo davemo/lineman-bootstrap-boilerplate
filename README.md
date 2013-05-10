@@ -16,13 +16,13 @@ I've overridden a few of the lineman defaults to provide a better starting place
 # Running the App
 
 1. Clone this repo
-2. `npm install`
-3. `lineman run`
+2. `npm install -g lineman` (if you don't have it already)
+3. `npm install handlebars`
+4. `lineman run`
 
 # Running the Specs
 
-1. `npm install` (if you haven't already)
-2. `lineman spec` (runs in phantom if you have it, and chrome)
+1. `lineman spec` (runs in phantom if you have it, and chrome)
 
 # Upgrading
 
